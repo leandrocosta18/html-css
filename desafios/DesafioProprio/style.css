@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Wallpoet&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #0D0D0D;
+    color: #EAEAEA;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 2,0em;
+}
+
+header > p.destino {
+    font-family: "Press Start 2P", system-ui;
+    padding: 10px;
+    font-size: 0.7em;
+}
+
+nav > a {
+    color: #EAEAEA;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 10px;   
+}
+
+nav > a:hover {
+    color: #FF00C8;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #E94560;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 3px 3px 5px black;
+}
+
+div.Melhor {
+    text-align: center;
+    padding: 20px;
+
+}
+
+div.Melhor > h2 {
+    font-family: "Wallpoet", sans-serif;
+    padding: 10px;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 5px rgba(15, 14, 14, 0.656);
+}
+
+div.Melhor > p {
+    font-family: "Wallpoet", sans-serif;
+    font-weight: normal;
+    color: #EAEAEA;
+}
+
+div.Jogo1 {
+    text-align: justify;
+}
+
+div.Jogo1 > h2 {
+    font-family: "Wallpoet", sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(15, 14, 14, 0.656);
+}
+
+div.Jogo1 > p {
+    font-family: "Wallpoet", sans-serif;
+    color: #EAEAEA;
+    font-weight: normal;
+    padding: 10px;
+    text-indent: 30px;
+
+}
+
+div.jogo2 {
+    text-align: justify;
+}
+
+div.jogo2 > h2 {
+    font-family: "Wallpoet", sans-serif;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(15, 14, 14, 0.656);
+
+}
+
+div.jogo2 > p {
+    font-family: "Wallpoet", sans-serif;
+    color: #EAEAEA;
+    font-weight: normal;
+    padding: 10px;
+    text-indent: 30px;
+
+}
+
+div.jogo3 {
+    text-align: justify;
+}
+
+div.jogo3 > h2 {
+    font-family: "Wallpoet", sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(15, 14, 14, 0.656);
+}
+
+div.jogo3 > p {
+    font-family: "Wallpoet", sans-serif;
+    color: #EAEAEA;
+    font-weight: normal;
+    padding: 10px;
+    text-indent: 30px;
+}
+
+aside {
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+aside > h3 {
+    font-family: "Wallpoet", sans-serif;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 2px 2px 5px rgba(15, 14, 14, 0.656);
+}
+
+aside > p {
+    font-family: "Wallpoet", sans-serif;
+    color: #EAEAEA;
+    text-align: center;
+}
+
+aside > ul {
+    font-family: "Wallpoet", sans-serif;
+    color: #EAEAEA;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #0D0D0D;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+div.id {
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div.id > h4 {
+    font-family: "Wallpoet", sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+div.id > p {
+    font-family: "Wallpoet", sans-serif;
+    color: #EAEAEA;
+    font-weight: normal;
+    text-indent: 30px;
+
+}
+
+
+strong {
+    padding: 10px;
+    font-weight: normal;
+
+}
+strong:hover {
+    color: #0D0D0D;
+    text-decoration: underline;
+    
+}
+
+@

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>fonte externas</title>
+    <style>
+     
+        @font-face {
+            font-family: 'f';
+            src: url('lover.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            tipos de format()
+            -opentype (otf)
+            truetype (ttf)
+            embedde-opentype
+            truetype-aat (apple advanced typography)
+            svg 
+            */
+        }
+
+        body{
+            font-family: 'f', Courier, monospace;
+        }
+
+        h1{
+            font-family: 'f', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error quibusdam aliquid vero numquam. Atque ab explicabo dolore ipsum sequi? Voluptatibus commodi eaque, quisquam earum quos ducimus quis minima dolor!</p>
+
+    <h2>subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, provident doloribus reiciendis mollitia fugit eius vero amet vel commodi accusamus delectus ut obcaecati cupiditate deserunt quibusdam earum, quia praesentium? Quos?</p>
+</body>
+</html>

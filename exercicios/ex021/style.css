@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oooh Baby", sans-serif;
+}
+
+header.cabecalho{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(18, 147, 18);
+    color: white;
+    border-radius: 10px 15px;
+}
+
+header > h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+header > h2{
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu{
+text-align: left;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+div > h1{
+    padding: 10px;
+    color: rgb(4, 76, 4);
+}
+
+div > p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+div > h2{
+    padding: 10px;
+    color: rgb(4, 76, 4);
+     background: linear-gradient(to right, #c6ebbd);
+     font-size: 32px;
+}
+
+p.terceiro >a{
+    color: rgb(4, 76, 4);;
+}
+
+div > h3{
+    padding: 10px;
+    color: rgb(4, 76, 4);
+    background: linear-gradient(to right, #c6ebbd);
+    font-size: 32px;
+}
+
+div.grid{
+ background-color: #c6ebbd;
+ height: 500px;
+ width: 500px;
+ border-width: 20px;
+ padding: auto;
+ margin: 20px;
+ align-content: normal;
+ display: flex;
+ flex-direction: row;
+
+}
+
+div.grid > h4{
+    padding: 10px;
+    text-align: center;
+    text-align: right;
+}

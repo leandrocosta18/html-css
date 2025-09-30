@@ -1,0 +1,72 @@
+*{
+    margin: 25;
+    padding: 25;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; /* usamos a fonte arial para o corpo(body)*/
+    background-color: #f4f4f4;   /* cor de fundo suav */
+    color: #333;
+    line-height: 1.6; /* Espaçamento entre as linhas de texto */
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #000;
+    color: white; 
+    text-align: center; /* Alinha o texto ao centro*/
+    padding: 20px 0;
+}
+header.logo img{
+    width: 100px; /* ajuste o tamanho da logo */
+    height: auto; /* mantém a proporção da imagem*/
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+.sobre{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    bottom: 0;
+
+}
+button{
+    color: #212020;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+#DataHora{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #000;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+
+}
+button{
+    padding: 10px 5px;
+    font-size: 15px;
+    background-color: white;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px;
+}
