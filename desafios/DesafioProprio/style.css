@@ -8,6 +8,11 @@
     margin: 0px;
 }
 
+body {
+    background-image: url("https://preview.redd.it/fy7wrgfqsk351.jpg?auto=webp&s=bb9ad933d2ae0228a69148d583efc2a580b3fb86");
+    background-repeat: no-repeat;
+}
+
 header {
     background-color: #0D0D0D;
     color: #EAEAEA;
